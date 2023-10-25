@@ -106,7 +106,7 @@ class AdsucApp(tk.Tk):
     
     
     def clickdashboard(self):
-        call(["python", "steganography/dashboard.py"])
+        call(["python", "dashboard.py"])
 
     def exitt(self):
         self.destroy()

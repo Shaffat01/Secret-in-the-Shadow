@@ -18,7 +18,7 @@ class AboutApp(tk.Tk):
         self.MFrame.grid(row=0, column=0, padx=5, pady=5)
         # Add image on a Label.
         self.img = ImageTk.PhotoImage(
-            Image.open("images\sale.jpg").resize((WIDTH, HEIGHT), Image.ANTIALIAS))
+            Image.open("images\sale.jpg").resize((WIDTH, HEIGHT),))
         self.lbl = tk.Label(self.MFrame, image=self.img,)
         self.lbl.img = self.img
         self.lbl.place(relx=0.5, rely=0.5, anchor='center')  # Place label in center of parent.

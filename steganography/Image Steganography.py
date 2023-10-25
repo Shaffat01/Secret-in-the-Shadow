@@ -69,7 +69,7 @@ def extract_message():
 window = tk.Tk()
 window.title("Image Steganography")
 window.geometry("900x700+300+50")
-img = ImageTk.PhotoImage(Image.open("bg.jpeg").resize((900, 900), Image.ANTIALIAS))
+img = ImageTk.PhotoImage(Image.open("bg.jpeg").resize((900, 900),))
 lbl = tk.Label(window, width=900, height=700, image=img)
 lbl.img = img
 lbl.place(relx=0.5, rely=0.5, width=900, height=700, anchor='center')

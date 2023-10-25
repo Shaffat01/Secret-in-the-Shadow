@@ -24,7 +24,7 @@ root = tk.Tk()
 root.title("Hystogram Generator")
 root.geometry("600x600+400+100")
 root.config(bg="#73738c")
-img = ImageTk.PhotoImage(Image.open("bg.jpeg").resize((900, 900), Image.ANTIALIAS))
+img = ImageTk.PhotoImage(Image.open("bg.jpeg").resize((900, 900),))
 lbl = tk.Label(root, width=400, height=400, image=img)
 lbl.img = img
 lbl.place(relx=0.5, rely=0.5, width=600, height=600, anchor='center')

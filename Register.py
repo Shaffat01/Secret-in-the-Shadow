@@ -11,7 +11,7 @@ class RegApp(tk.Tk):
         super().__init__()
         self.title("SIGN UP ")
         self.resizable(0, 0)
-        img = ImageTk.PhotoImage(Image.open("bg.jpeg").resize((900, 700),Image.ANTIALIAS))
+        img = ImageTk.PhotoImage(Image.open("bg.jpeg").resize((900, 700),))
         lbl = tk.Label(self,width=900,height=700, image=img)
         lbl.img = img
         lbl.place(relx=0.5, rely=0.5,width=900,height=800, anchor='center')

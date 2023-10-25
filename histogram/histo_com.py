@@ -65,7 +65,7 @@ root.geometry("900x600")
 canvas = tk.Canvas(root, width=900, height=600, bg="#73738c")
 canvas.pack()
 
-bg_image = ImageTk.PhotoImage(Image.open("bg.jpeg").resize((900, 600), Image.ANTIALIAS))
+bg_image = ImageTk.PhotoImage(Image.open("bg.jpeg").resize((900, 600),))
 bg_label = tk.Label(root, image=bg_image)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
